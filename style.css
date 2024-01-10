@@ -79,13 +79,16 @@ nav a {
   padding-left: 20px;
 }
 
-/* main, */
-.home-contr,
-.projects-sctn {
+.home-contr {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.projects-sctn {
+  display: flex;
+  justify-content: center;
 }
 
 .home-contr {
@@ -107,6 +110,10 @@ nav a {
 .home-h2 {
   font-size: 40px;
   margin-top: 0px;
+}
+
+.projects-sctn h2 {
+  font-size: 20px;
 }
 
 .about-sctn {
