@@ -3,7 +3,9 @@ const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 const pathName = window.location.pathname;
 const pageName = pathName.split("/").pop();
 
-if (pageName === "./") {
+console.log("pageName", pageName);
+
+if (pageName === ".") {
   document.querySelector("home").classList.add("activeLink");
 }
 if (pageName === "about") {
