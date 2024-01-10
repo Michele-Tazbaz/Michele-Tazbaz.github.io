@@ -24,7 +24,7 @@ Users can:
 [] delete a restaurant list
 
 [] search for friends on the site by email
-[] add friends
+[] add / delete friends
 [] view friend's saved lists
 [] copy friend's lists
-[] create new lists based on friend's list
+[] copy restaurants on a friend's list to their own lists
