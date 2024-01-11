@@ -89,10 +89,27 @@ nav a {
 .projects-sctn {
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.projects-sctn img {
-  width: 30vw;
+.proj-pics-contr {
+  display: flex;
+}
+
+.projects-sctn p {
+  font-size: 14px;
+}
+
+.project-pic {
+  width: 35vw;
+  box-shadow: #d6d0c6 0px 7px 29px 0px;
+  margin: 10px;
+}
+
+.project-descriptn {
+  width: 20vw;
+  position: relative;
 }
 
 .home-contr {
@@ -116,8 +133,36 @@ nav a {
   margin-top: 0px;
 }
 
-.projects-sctn h2 {
+.project-h2,
+.skills-sctn h2 {
+  font-size: 26px;
+}
+
+.project-h2 {
+  text-align: center;
+}
+
+.proj-links{
+  text-decoration: none;
+  color: #6f624d;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.proj-links:hover {
+  color: #cb8cbd;
+}
+
+.proj-top-contr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects-sctn h3 {
   font-size: 20px;
+  margin: 5px;
 }
 
 .about-sctn {
@@ -265,6 +310,18 @@ ul {
     font-size: 14px;
   }
 
+  .projects-sctn {
+    flex-direction: column;
+  }
+
+  .project-descriptn {
+    width: 80vw;
+  }
+
+  .project-pic {
+    width: 40vw;
+  }
+
   .about-sctn {
     display: flex;
     flex-direction: column;
@@ -359,6 +416,10 @@ ul {
     padding: 15px 15px 0px;
   }
 
+  .project-h2 {
+    font-size: 16px;
+  }
+
   .skills-sctn ul {
     display: grid;
     grid-template-columns: 32vw 28vw 30vw;
@@ -371,5 +432,22 @@ ul {
 
   .home-h2 {
     font-size: 30px;
+  }
+
+  .proj-pics-contr {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .projects-links {
+    position: relative;
+  }
+
+  .projects-links a{
+padding-left: 30px;
+  }
+
+  .project-pic {
+    width: 80vw;
   }
 }

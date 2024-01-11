@@ -22,9 +22,9 @@
         </a>
         <div class="navbar-links">
           <ul>
-            <li><a class="home" href="./">Home</a></li>
-            <li><a class="about" href="./about">About</a></li>
-            <li><a class="projects" href="./projects">Projects</a></li>
+            <li><a class="home" href="home.html">Home</a></li>
+            <li><a class="about" href="about.html">About</a></li>
+            <li><a class="projects" href="projects.html">Projects</a></li>
             <li>
               <a
                 class="resume"
@@ -37,28 +37,46 @@
         </div>
       </nav>
     </header>
-    <main class="projects-sctn">
-      <section>
-        <h2>Dish-it</h2>
-        <p>
-          - A social web application where users create and track lists of
-          favorite restaurants and share them with friends<br />
-          - Search results powered by Yelp Fusion API, images for lists are
-          created through the Unsplash API, JWT tokens for user authorization<br />
-          TechStack: React.js, Redux Toolkit, Webpack, Javascript, Node.js,
-          Sequelize, PostgreSQL
-        </p>
-        <div>
-          <a href="https://dish-it.onrender.com/" target="_blank">site</a>
-          <a href="https://github.com/Tazzy2022/dish-It" target="_blank"
-            >github</a
-          >
+    <main>
+      <h2 class="project-h2">Projects</h2>
+      <div class="projects-sctn">
+        <section class="project-descriptn">
+          <div class="proj-top-contr">
+            <h3>Dish-it</h3>
+            <div class="proj-links-contr">
+              <a
+                class="proj-links"
+                href="https://dish-it.onrender.com/"
+                target="_blank"
+                >site</a
+              >
+              <a
+                class="proj-links"
+                href="https://github.com/Tazzy2022/dish-It"
+                target="_blank"
+                >github</a
+              >
+            </div>
+          </div>
+          <p>
+            - A social web application where users create and track lists of
+            favorite restaurants and share them with friends<br />
+            - Search results powered by Yelp Fusion API, images for lists are
+            created through the Unsplash API, JWT tokens for user
+            authorization<br />
+            TechStack: React.js, Redux Toolkit, Webpack, Javascript, Node.js,
+            Sequelize, PostgreSQL
+          </p>
+        </section>
+        <div class="proj-pics-contr">
+          <section>
+            <img class="project-pic" src="dish-home.png" alt="project image" />
+          </section>
+          <section>
+            <img class="project-pic" src="search.png" alt="project image" />
+          </section>
         </div>
-      </section>
-      <section>
-        <img class="project-pic" src="dish-home.png" alt="project image" />
-        <img class="project-pic" src="search.png" alt="project image" />
-      </section>
+      </div>
     </main>
     <footer>
       <a class="footer-a" href="mailto:micheletazbaz@gmail.com"
