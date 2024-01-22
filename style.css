@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Verdana", Sans-serif;
-  background-color: rgb(252, 252, 232);
+  background-color: rgb(249, 248, 229);
   color: #6f624d;
   margin: 0;
   padding: 0;
@@ -90,7 +90,6 @@ nav a {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  align-items: center;
 }
 
 .proj-pics-contr {
