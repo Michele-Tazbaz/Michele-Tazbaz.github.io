@@ -99,6 +99,7 @@ nav a {
 
 .projects-sctn p {
   font-size: 14px;
+  margin: 0px;
 }
 
 .project-pic {
@@ -112,8 +113,9 @@ nav a {
   position: relative;
 }
 
-.home-contr {
-  margin-top: 20vh;
+.proj-links-contr {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .home-h1,
@@ -142,7 +144,7 @@ nav a {
   text-align: center;
 }
 
-.proj-links{
+.proj-links {
   text-decoration: none;
   color: #6f624d;
   font-size: 14px;
@@ -443,8 +445,8 @@ ul {
     position: relative;
   }
 
-  .projects-links a{
-padding-left: 30px;
+  .projects-links a {
+    padding-left: 30px;
   }
 
   .project-pic {
