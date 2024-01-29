@@ -82,8 +82,8 @@ nav a {
 .home-contr {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin-top: auto;
 }
 
 .projects-sctn {
@@ -127,6 +127,7 @@ nav a {
 
 .home-h1 {
   font-size: 60px;
+  margin-top: 0%;
 }
 
 .home-h2 {
